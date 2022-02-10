@@ -9,9 +9,10 @@
     ],
     "parserOptions": {
         "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
             "jsx": true
         },
-        "ecmaVersion": 6,
+        "ecmaVersion": 2020,
         "sourceType": "module"
     },
     "plugins": [
@@ -59,9 +60,13 @@
       "react/no-unescaped-entities": "off",
       "jsx-a11y/label-has-associated-control": "off",
 
-
      //for windows only
-      "linebreak-style": ["error", "windows"]
+      "linebreak-style": ["error", "windows"],
+      
+      "react/function-component-definition": 0,
+      "arrow-body-style": 0,
+      "default-param-last": 0,
+      "comma-dangle": 0
       
     }
 }
