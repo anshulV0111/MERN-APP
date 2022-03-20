@@ -61,7 +61,7 @@
       "jsx-a11y/label-has-associated-control": "off",
 
      //for windows only
-      "linebreak-style": ["error", "windows"],
+    //   "linebreak-style": ["error", "windows"],
       
       "react/function-component-definition": 0,
       "arrow-body-style": 0,
